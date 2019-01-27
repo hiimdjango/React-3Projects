@@ -5,7 +5,7 @@ import Coursesales from './Coursesales';
 
 class App extends Component {
   render() {
-    var course = [
+    const course = [
       { name: 'Complete IOS Dev Course', price:199 },
       { name: 'Complete Front End Dev Course', price:299 },
       { name: 'Complete Python Course', price:180 },

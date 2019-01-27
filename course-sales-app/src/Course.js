@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 class Course extends Component {
   clicker(){
-    var active = !this.state.active;
+    let active = !this.state.active;
     this.setState({active: active});
     this.props.sumPrice(active ? this.props.price : -this.props.price);
   }
